@@ -1,0 +1,14 @@
+{
+  "name": "looplijn-public-architecture",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Public, sanitized architecture samples used in Looplijn",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
