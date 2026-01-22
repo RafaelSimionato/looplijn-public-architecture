@@ -1,39 +1,31 @@
-# Looplijn - Public Architecture
+Looplijn Public Architecture
+============================
 
-This repository is a public, sanitized view of how I structure and build production-grade AI and SaaS systems at Looplijn.
+This repository is a public, sanitized view of how I structure and build production-grade AI and SaaS systems for Looplijn.
 
-It is intentionally limited and does **not** contain:
-- private business logic  
-- customer data  
-- API keys or secrets  
-- internal prompts or workflows  
+It does not contain private business logic, proprietary algorithms, secrets, or customer data.  
+Its purpose is to demonstrate architecture, code quality, security practices, and engineering standards.
 
-The purpose is to showcase architecture design, code quality, security practices, and overall engineering approach.
+What this shows
+---------------
 
----
-
-## What this shows
-
-- Express API structure used for production systems  
-- Safety patterns for inputs and outputs  
-- Rate limiting approach (sample implementation)  
-- A sanitized Loopy chat endpoint pattern  
+- Express API structure used in production services  
+- Input validation and safe response patterns  
+- Rate limiting architecture (sample implementation)  
+- A sanitized version of the Loopy chat endpoint design  
 - Environment-based configuration  
-- Scalable and maintainable project layout  
+- Project layout that scales cleanly for SaaS and AI backends  
 
----
-
-## Tech Stack
+Tech stack
+----------
 
 - Node.js  
 - Express  
 - Serverless-compatible patterns  
 - Environment-based configuration  
 
----
+Quick start
+-----------
 
-## Quick Start
+Install dependencies:
 
-1) Install dependencies  
-```bash
-npm install
